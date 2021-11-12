@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: beige;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: burlywood;
+}
+
+#posts {
+    justify-content: space-around;
+}
+
+.post {
+    cursor: pointer;
+}
+
+#coments {
+    flex-direction: column;
+    align-items: center;
+}
+
+.coment {
+    width: 65%;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 5px;
+    left: 50px;
+}
